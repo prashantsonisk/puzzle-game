@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="/js/jquery-ui.css">
+    <link rel="stylesheet" href="js/style.css">
+</head>
+<body>
+   <div id="timer-div">
+   	 <h1 id="timer-text">Timer : <h1 id='timer'></h1></h1>
+   </div>
+    <div id="puzzle" class="sortable">
+        <div id='tile1' class='tile'></div>
+        <div id='tile2' class='tile'></div>
+        <div id='tile3' class='tile'></div>
+        <div id='tile4' class='tile'></div>
+        <div id='tile5' class='tile'></div>
+        <div id='tile6' class='tile'></div>
+        <div id='tile7' class='tile'></div>
+        <div id='tile8' class='tile'></div>
+        <div id='tile9' class='tile'></div>
+    </div>
+	
+	<div id='popup' style='display:block;'>
+<div id='message'>
+<h1>Picture Puzzle Game</h1>
+Click on start button to shuffle and rearrage tiles. Solve the 
+puzzle by rearranging them to the picture shown.</div><br>
+<button id='startBtn' type="button" style='display:inline;' onclick="shuffleImg()">Start Game</button><br/><br/>
+</div>   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>    
+</body>
+</html>
